@@ -633,3 +633,39 @@ PHP
     }
 
 
+2. multiple inheritance: interface
+
+interface Isbn {
+    public function setISBN($isbn);
+}
+
+interface Type {
+    public function setType($type);
+}
+
+class book implements Isbn, Type {
+    private $isbn;
+    private $type;
+    public function setISBN($isbn) {
+        $this -> isbn = $isbn;
+    }
+    public function setType($type) {
+        $this -> type = $type;
+    }
+}
+
+
+3. make a connection with MySQL
+
+$mysqli = mysqli_connect("localhost","username","password");
+$mysqli = new mysqli("localhost","username","password");
+
+
+4. retrieve data from MySQL
+
+$result=mysqli_query($DBconnection,$query);
+$row=mysqli_fetch_array($result);
+printf ("%s %s\n",$row[0],$row[1]);
+
+
+
