@@ -1,4 +1,75 @@
 JavaScript
+1. check if a number is an integer.
+2. write a function to do this: multiply(5)(6)
+3. when to use bind function
+when to use bind function 2
+4. when to use “use strict”
+5. different between == and ===
+6. callback function
+7. 0.1 + 0.2 === 0.3
+8. access private variable
+9. empty an array
+10. self invoking function
+11. hide JavaScript code from older browser
+12. hoisting
+11. check if bar is an object
+12. check if a string is a palindrome
+13. a method works with both sum(2,3) and sum(2)(3)
+14. correct the code (use of closure in loop)
+correct the code 2
+15. a recursive code without the stack overflow problem
+16. calculate 10!
+17. visit all elements in a tree(DOM)
+18. clone an object
+19. add an element at the beginning / end of an array
+19. calculate the length of an associative array (object)
+
+jQuery
+1. query
+2. define a click handler for all buttons, including those added later dynamically
+3. $ an alias for the jQuery object and jQuery() function
+4. animate the div over 3 seconds
+5. method chaining
+6. event.preventDefault() & event.stopPropagation()
+7. .promise()
+
+HTML
+Inline level elements / block level elements:
+entity: 
+
+CSS
+position: 
+display: 
+@media
+flexbox 
+justify-content
+variables:
+@keyframes
+transition
+grid
+
+SASS
+$primary-color: #fff;
+& parent 
+inheritance:
+%
+@extend %btn-shared;
+_variables.scss: partial
+@import ‘variables’;
+@import ‘fuctions’;
+_functions.scss:   
+@function 
+@mixin
+@include 
+
+PHP
+1. upload file
+2. multiple inheritance: interface
+
+=================
+
+
+JavaScript
 
 1. check if a number is an integer.
 
